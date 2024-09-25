@@ -145,6 +145,21 @@ figcaption {
     margin: 0 auto;
 }
 
+#questions p {
+    cursor: pointer;
+}
+
+#answer {
+    text-align: center;
+    font-weight: bold;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#answer h2 {
+    display: none;
+}
+
 .tel-link a {
     color: #f6eee4;
     text-decoration: none;
@@ -220,7 +235,6 @@ footer a {
         display: block;
         color: #f6eee4;
         text-decoration: none;
-}
     }
     
     .grid {
